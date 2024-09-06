@@ -1,0 +1,22 @@
+Info Source:
+https://community.adobe.com/t5/photoshop/where-are-abstract-and-devicelink-profiles-for-color-lookup-in-ps-cc-2019/m-p/10520930
+
+
+Location of ICC Profiles on Computer Abstract and Device Link:
+
+C:\Windows\System32\spool\drivers\color
+
+C:\Program Files\Common Files\Adobe\Color\Profiles
+
+C:\Program Files (x86)\Common Files\Adobe\Color\Profiles
+
+
+To fix the issue in Windows for Photoshop CC 2021: 
+
+1.Copy all the ICC files from C:\Program Files (x86)\Common Files\Adobe\Color Profiles
+There should be about 16 ICC files.
+
+2. Then paste them into C:\Windows\System32\spool\drivers\color
+
+I did it and now I find all the Presets for Abstract and Device Link where they must be in the dropdown menus.
+
